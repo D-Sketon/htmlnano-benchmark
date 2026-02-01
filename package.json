@@ -1,0 +1,41 @@
+{
+  "name": "htmlnano-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A benchmark suite for HTML minifiers, focused on htmlnano.",
+  "homepage": "https://github.com/D-Sketon/htmlnano-benchmark#readme",
+  "bugs": {
+    "url": "https://github.com/D-Sketon/htmlnano-benchmark/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-Sketon/htmlnano-benchmark.git"
+  },
+  "license": "MIT",
+  "author": "D-Sketon",
+  "scripts": {
+    "bench": "node ./src/bench.mjs --expose-gc",
+    "profile": "0x ./src/profile.mjs"
+  },
+  "dependencies": {
+    "@minify-html/node": "^0.18.1",
+    "@tdewolff/minify": "^2.24.8",
+    "handlebars": "^4.7.7",
+    "html-minifier": "^4.0.0",
+    "html-minifier-next": "^4.19.1",
+    "html-minifier-terser": "^7.2.0",
+    "htmlnano": "^3.0.0"
+  },
+  "devDependencies": {
+    "0x": "^6.0.0",
+    "mitata": "^1.0.34"
+  },
+  "peerDependencies": {
+    "cssnano": "^7.0.0",
+    "postcss": "^8.3.11",
+    "purgecss": "^7.0.2",
+    "svgo": "^3.0.2",
+    "terser": "^5.10.0",
+    "uncss": "^0.17.3"
+  }
+}
