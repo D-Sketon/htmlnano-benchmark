@@ -24,7 +24,7 @@
     "html-minifier": "^4.0.0",
     "html-minifier-next": "^4.19.1",
     "html-minifier-terser": "^7.2.0",
-    "htmlnano": "^3.0.0"
+    "htmlnano": "^3.2.1"
   },
   "devDependencies": {
     "0x": "^6.0.0",
@@ -33,8 +33,8 @@
   "peerDependencies": {
     "cssnano": "^7.0.0",
     "postcss": "^8.3.11",
-    "purgecss": "^7.0.2",
-    "svgo": "^3.0.2",
+    "purgecss": "^8.0.0",
+    "svgo": "^4.0.0",
     "terser": "^5.10.0",
     "uncss": "^0.17.3"
   }
